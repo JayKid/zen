@@ -18,4 +18,10 @@ $().ready(function() {
 		$('body').removeClass().addClass(newClass);
 		return false;
 	});
+
+	$('.textTrigger').click(function() {
+		var newClass = $(this).attr('href');
+		$('#text').removeClass().addClass(newClass);
+		return false;
+	});
 });

@@ -51,11 +51,14 @@ textarea::active {
     font-size: 2em;
 }
 
-#color-selection {
-    width: 100%;
+#color-selection, #text-selection {
     height: 3em;
     position: fixed;
     bottom: 0px;
+}
+
+#text-selection {
+    right: 0px;
 }
 
 .colorBox {
@@ -91,4 +94,37 @@ textarea::active {
 
 .simpleColorMistyRose {
     background: MistyRose;
+}
+
+.textModifierBox {
+    height: 48px;
+    width: 48px;
+    margin-right: 2px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 0.6em;
+    color: #B8B6B7;
+    float: left;
+    border-radius: 3px;
+}
+
+.arialFace {
+    font-family: Arial;
+}
+
+.verdanaFace {
+    font-family: Verdana;
+}
+
+.palatinoFace {
+    font-family: Palatino Linotype;
+}
+
+.tahomaFace {
+    font-family: Tahoma;
+}
+
+.lucidaFace {
+    font-family: Lucida Grande;
 }
